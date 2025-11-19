@@ -24,7 +24,7 @@ The AdventureWork database from 2014 to 2019 can be found [here](https://learn.m
 | 3       | Sales Representative | A detailed overview of internet sales per product  | Can follow up my products that sell the most                            | A Power BI dashboard which allows me to filter data for each product  |
 | 4       | Sales Manager        | To get a dashboard overview of internet sales      | Follow sales over time against budget                                    | A Power BI dashboard with graphs and KPIs comparing against budget    |
 
-## Data Cleaning
+## Data Cleaning & Transformations
 From the AdventureWork database, we use SQL to generate these tables below:
 * DIM_Customers
 * DIM_Products
