@@ -118,11 +118,11 @@ View the Power BI file [here](https://github.com/Janelle1120/AdventureWorks-Sale
 
 View the PDF file [here](https://github.com/Janelle1120/AdventureWorks-Sales-Analysis/blob/main/PDF%20-%20AdventrueWorks%20PowerBI%20Dashboard.pdf).
 
-<img src="https://user-images.githubusercontent.com/84619797/210082886-1d08b8f4-478c-469e-8cd4-e5e6058ce447.png" >
+<img src="https://github.com/Janelle1120/AdventureWorks-Sales-Analysis/blob/main/Images/Screenshot%202025-11-19%20at%205.13.33%20AM.pdf" >
 
-<img src="https://user-images.githubusercontent.com/84619797/210083133-e5c7cf45-6956-4cc7-be54-2871e1d1f63e.png" >
+<img src="https://github.com/Janelle1120/AdventureWorks-Sales-Analysis/blob/main/Images/Screenshot%202025-11-19%20at%205.13.52%20AM.pdf" >
 
-<img src="https://user-images.githubusercontent.com/84619797/210083139-75de78ca-08ba-4d32-805c-0a84716462e3.png" >
+<img src="https://github.com/Janelle1120/AdventureWorks-Sales-Analysis/blob/main/Images/Screenshot%202025-11-19%20at%205.14.08%20AM.pdf" >
 
 
 ---
