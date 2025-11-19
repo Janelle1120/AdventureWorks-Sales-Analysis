@@ -38,14 +38,19 @@ Then, save them as CSV files to import to Power BI later. View all the files [he
 ### > Table `DIM_Customers`
 ```TSQL
 SELECT 
-  c.[CustomerKey]
-  ,c.[FirstName] + ' ' + c.[LastName] AS FullName
-  ,CASE c.[Gender] WHEN 'M' THEN 'Male' ELSE 'Female' END AS Gender
-  ,c.[DateFirstPurchase]
-  ,g.City AS [Customer City]
-FROM [AdventureWorksDW2019].[dbo].[DimCustomer] c
-LEFT JOIN [dbo].[DimGeography] g ON c.GeographyKey = g.GeographyKey
-ORDER BY c.CustomerKey
+  c.customerkey AS CustomerKey, 
+  c.firstname AS [First Name], 
+  c.lastname AS [Last Name], 
+  c.firstname + ' ' + lastname AS [Full Name], 
+  -- Combined First and Last Name
+  CASE c.gender WHEN 'M' THEN 'Male' WHEN 'F' THEN 'Female' END AS Gender,
+  c.datefirstpurchase AS DateFirstPurchase, 
+  g.city AS [Customer City] -- Joined in Customer City from Geography Table
+FROM 
+  [AdventureWorksDW2019].[dbo].[DimCustomer] as c
+  LEFT JOIN dbo.dimgeography AS g ON g.geographykey = c.geographykey 
+ORDER BY 
+  CustomerKey ASC -- Ordered List by CustomerKey
 ```
 ![image](https://user-images.githubusercontent.com/84619797/210081674-04c93ed4-873c-4a88-a8b7-d6bdc86c540d.png)
 
