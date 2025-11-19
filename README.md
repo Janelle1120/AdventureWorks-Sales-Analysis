@@ -109,7 +109,7 @@ After importing all CSV files to Power BI, the data model will look like this:
 
 View the Power BI file [here](https://github.com/Janelle1120/AdventureWorks-Sales-Analysis/blob/main/AdventureWorks%20Sales%20Analysis%20PowerBI%20Dashboard.pbix).
 
-View the PDF file [here](https://github.com/qanhnn12/AdventureWork-Sales-Analysis/blob/main/PDF%20Adventurework.pdf).
+View the PDF file [here](https://github.com/Janelle1120/AdventureWorks-Sales-Analysis/blob/main/PDF%20-%20AdventrueWorks%20PowerBI%20Dashboard.pdf).
 
 <img src="https://user-images.githubusercontent.com/84619797/210082886-1d08b8f4-478c-469e-8cd4-e5e6058ce447.png" >
 
