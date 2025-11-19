@@ -1,5 +1,3 @@
-# AdventureWorks-Sales-Analysis
-
 # :bar_chart: AdventureWork: Sales Analysis
 This repository was inspired by the tutorial of Ali Ahmad - [Data Analyst Portfolio Project (Sales Analysis) with Power BI and SQL](https://www.youtube.com/playlist?list=PLMfXakCUhXsEUtk8c0zWr4whamGxLhAu0). 
 
@@ -121,3 +119,5 @@ View the PDF file [here](https://github.com/qanhnn12/AdventureWork-Sales-Analysi
 
 
 ---
+
+© 2025 Janelle Acob
