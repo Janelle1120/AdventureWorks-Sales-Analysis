@@ -33,7 +33,7 @@ From the AdventureWork database, we use SQL to generate these tables below:
 
 Then, save them as CSV files to import to Power BI later. View all the files [here](https://github.com/Janelle1120/AdventureWorks-Sales-Analysis/tree/main/Cleaning%20Data-Transformations).
 
-*Note: FACT_Budget is generated from a seperated Excel file.*
+*Note: The FACT_Budget (SalesBudget) is generated from a seperated Excel file.*
 
 ### > Table `DIM_Customers`
 ```TSQL
