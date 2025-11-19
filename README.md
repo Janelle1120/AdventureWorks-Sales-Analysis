@@ -103,7 +103,7 @@ ORDER BY OrderDateKey
 
 ## Connecting Tables for Data Model - Relationship Diagram
 After importing all CSV files to Power BI, the data model will look like this:
-<img src="file:///C:/Users/Janel/OneDrive/Pictures/Screenshots/Screenshot%202025-11-18%20210924.png" >
+<img src="https://user-images.githubusercontent.com/84619797/210082856-5ac6a1c8-b7f1-4b8b-a02c-9884b371e391.png" >
 
 ## Dashboard
 
