@@ -99,11 +99,11 @@ FROM [AdventureWorksDW2019].[dbo].[FactInternetSales]
 WHERE LEFT(OrderDateKey, 4) >= YEAR(GETDATE()) - 2 --ensures that we only bring 2 years of date from extraction
 ORDER BY OrderDateKey
 ```
-![image](file:///C:/Users/Janel/OneDrive/Pictures/Screenshots/Screenshot%202025-11-18%20210924.png)
+![image](https://user-images.githubusercontent.com/84619797/210082437-28e7a939-ccf1-466e-8269-6fb412035ace.png)
 
 ## Connecting Tables for Data Model - Relationship Diagram
 After importing all CSV files to Power BI, the data model will look like this:
-<img src="https://user-images.githubusercontent.com/84619797/210082856-5ac6a1c8-b7f1-4b8b-a02c-9884b371e391.png" >
+<img src="file:///C:/Users/Janel/OneDrive/Pictures/Screenshots/Screenshot%202025-11-18%20210924.png" >
 
 ## Dashboard
 
