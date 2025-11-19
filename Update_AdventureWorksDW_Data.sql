@@ -1,32 +1,20 @@
 /* 
 
 Description: 
-
 ---------- The script updates the date colums for the AdventureWorksDW database with recent dates and it inserts new dates in the date dimension. 
-
 ---------- It uses the current year as the last year for the data in the Adventure Works database. 
-
 ---------- AdventureWorksDW original database contains data from 2010 to 2014, ths script will update the data to be (current year - 4 yars) to current year 
-
 ---------- The script deletes leap year records from FactCurrencyRate and FactProductInventory to avoid having constraint issues
-
 ---------- For example: if the current year is 2021, the data after running the script will be from 2017 to 2021. 
 
- 
-
 Author: 
-
 ---------- David Alzamendi (https://techtalkcorner.com) 
 
- 
-
 Date: 
-
 ---------- 19/11/2020 
 
+Modified by: Janelle Acob
 */ 
-
- 
 
 -- Declare variables  
 
@@ -39,8 +27,6 @@ declare @MaxDateInDW int
 select @MaxDateInDW  = MAX(year(orderdate)) from [dbo].[FactInternetSales] 
 
 declare @YearsToAdd int = @CurrentYear - @MaxDateInDW 
-
- 
 
 if (@YearsToAdd>0) 
 
@@ -81,7 +67,7 @@ DECLARE @startdate DATE = '2015-01-01' --change start date if required
 
    ,@enddate   DATE = @LastDayCurrentYear --change end date if required 
 
-        
+       
 
 DECLARE @datelist TABLE (FullDate DATE)  
 
@@ -475,3 +461,4 @@ REFERENCES [dbo].[DimDate] ([DateKey])
 ALTER TABLE [dbo].[FactSurveyResponse] CHECK CONSTRAINT [FK_FactSurveyResponse_DateKey]
 
 end 
+
