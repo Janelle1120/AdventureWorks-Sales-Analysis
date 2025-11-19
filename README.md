@@ -1,7 +1,7 @@
 # :bar_chart: AdventureWork: Sales Analysis
 This repository was inspired by the tutorial of Ali Ahmad - [Data Analyst Portfolio Project (Sales Analysis) with Power BI and SQL](https://www.youtube.com/playlist?list=PLMfXakCUhXsEUtk8c0zWr4whamGxLhAu0). 
 
-The AdventureWork database from 2014 to 2019 can be found [here](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver17&tabs=ssms). To update the database until 2022, follow the SQL Script [here] (https://github.com/Janelle1120/AdventureWorks-Sales-Analysis/blob/main/Update_AdventureWorksDW_Data.sql).
+The AdventureWork database from 2014 to 2019 can be found [here](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver17&tabs=ssms). To update the database until 2022, follow the SQL Script [here](https://github.com/Janelle1120/AdventureWorks-Sales-Analysis/blob/main/Update_AdventureWorksDW_Data.sql).
 
 ## Business Request
 * We need to improve our Internet sales reports and want to move from static reports to visual dashboard.
