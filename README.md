@@ -68,10 +68,12 @@ SELECT
   ,p.[ModelName] AS [Product Model Name]
   ,p.[EnglishDescription] AS [Product Description]
   ,ISNULL(p.[Status], 'Outdated') AS [Product Status]
-FROM [AdventureWorksDW2019].[dbo].[DimProduct] p
-LEFT JOIN [dbo].[DimProductSubcategory] ps ON p.ProductSubcategoryKey = ps.ProductSubcategoryKey
-LEFT JOIN [dbo].[DimProductCategory] pc ON ps.ProductCategoryKey = pc.ProductCategoryKey
-ORDER BY p.[ProductKey]
+FROM 
+  [AdventureWorksDW2019].[dbo].[DimProduct] as p
+  LEFT JOIN dbo.DimProductSubcategory AS ps ON ps.ProductSubcategoryKey = p.ProductSubcategoryKey 
+  LEFT JOIN dbo.DimProductCategory AS pc ON ps.ProductCategoryKey = pc.ProductCategoryKey 
+order by 
+  p.ProductKey asc
 ```
 ![image](https://user-images.githubusercontent.com/84619797/210082021-902047a1-4a4c-4655-817a-fc75947606c5.png)
 
@@ -102,7 +104,7 @@ SELECT [ProductKey]
       ,[SalesAmount]
 FROM [AdventureWorksDW2019].[dbo].[FactInternetSales]
 WHERE LEFT(OrderDateKey, 4) >= YEAR(GETDATE()) - 2 --ensures that we only bring 2 years of date from extraction
-ORDER BY OrderDateKey
+ORDER BY  OrderDateKey ASC
 ```
 ![image](https://user-images.githubusercontent.com/84619797/210082437-28e7a939-ccf1-466e-8269-6fb412035ace.png)
 
